@@ -1,0 +1,23 @@
+# Local config (should not be committed)
+config.yml
+outdir/
+queries.cypher
+import_order.yml
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# IDE configs
+.idea/
+.vscode/
+
+# Misc
+*.log
+

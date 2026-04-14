@@ -1,11 +1,11 @@
-joern_path: "C://Users//simon//joern" # Where is your joern installation?
-export_path: C://Users//simon//myproject//export" # Where did you export your cpg from joern?
+joern_path: "/home/user/joern" # Where is your joern installation?
+export_path: "/home/user/joern/outdir" # Where did you export your cpg from joern?
 
-neo4j_uri: "bolt://localhost:7687"
+neo4j_uri: "neo4j://127.0.0.1:7687"
 neo4j_user: "neo4j"
 neo4j_password: "password"
 
-neo4j_import_path: C://Users//simon//.Neo4jDesktop//relate-data//dbmss//dbms-1f1b1b1b-1b1b-1b1b-1b1b-1b1b1b1b1b1b//import"
+neo4j_import_path: "/home/user/.config/neo4j-desktop/Application/Data/dbmss/dbms-90ec0746-03bc-4b36-b818-aecf613794be/import"
 # Neo4j import folder is specific to the database. Data from the export_path will be copied to this folder. To get the import folder, run the following query in neo4j:
 ########
 # CALL dbms.listConfig() YIELD name, value
